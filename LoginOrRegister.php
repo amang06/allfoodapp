@@ -44,7 +44,9 @@ if (isset($_SESSION['login'])) {
         </div>
     </div>
 
+    <div>
     <?php include 'header.php' ?>
+    </div>
     <main>
 
     <section>

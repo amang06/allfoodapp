@@ -70,27 +70,6 @@ if ($_GET["logout"] == "true") {
 ?>
 
     <main>
-        <!--? slider Area Start-->
-        <div class="slider-area ">
-            <div class="slider-active">
-                <!-- Single Slider -->
-                <div class="single-slider slider-height d-flex align-items-center">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xl-9 col-lg-9 col-md-9">
-                                <div class="hero__caption">
-                                    <span data-animation="fadeInLeft" data-delay=".2s">Discover Your Taste</span>
-                                    <h1 data-animation="fadeInLeft" data-delay=".4s">We belive good food offer great smile</h1>
-                                    <p data-animation="fadeInLeft" data-delay=".6s">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat is aute irure.</p>
-                                    <!-- Hero-btn -->
-                                    <div class="hero__btn">
-                                        <a href="menu.php" class="btn hero-btn"  data-animation="fadeInLeft" data-delay=".8s">View Menu</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <!-- Single Slider -->
                 <div class="single-slider slider-height d-flex align-items-center">
                     <div class="container">
