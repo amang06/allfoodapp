@@ -1,0 +1,293 @@
+:root {
+    --input-padding-x: 1.5rem;
+    --input-padding-y: .75rem
+}
+.logo {
+    width:100%;
+    height: 200px;
+    text-align: center;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1)
+}
+.logo img {
+    height: 250px;
+    margin-top:-80px;
+}
+body {
+    background-image: url(../img/gallery/section_bg02.png);
+}
+
+main .dtable {
+    color: whitesmoke;
+    text-align: center;
+    font-size: large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form-signin {
+    width: 100%
+}
+
+.form-signin .btn {
+    font-size: 80%;
+    border-radius: 0rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    transition: all 0.2s
+}
+
+.form-label-group {
+    position: relative;
+    margin-bottom: 1rem
+}
+
+.form-label-group input {
+    height: auto
+}
+
+.form-label-group>input,
+.form-label-group>label {
+    padding: var(--input-padding-y) var(--input-padding-x)
+}
+
+.form-label-group>label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: all .1s ease-in-out
+}
+
+.form-control:focus {
+    box-shadow: 10px 0px 0px 0px #ffffff !important
+}
+
+.btn-google {
+    color: white;
+    background-color: #ea4335
+}
+
+.btn-facebook {
+    color: white;
+    background-color: #3b5998;
+    margin-bottom: 1rem;
+}
+.alert {
+    padding: 20px;
+    width:100%;
+    background-color: lightgreen;
+    color: white;
+    display: none;
+  }
+  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
+
+  .header-area .main-header {
+	padding: 0px 100px
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+	.header-area .main-header {
+		padding: 0px 30px
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.header-area .main-header {
+		padding: 0px 15px
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.header-area .main-header {
+		padding: 10px 5px
+	}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	.header-area .main-header {
+		padding: 10px 5px
+	}
+}
+
+@media (max-width: 575px) {
+	.header-area .main-header {
+		padding: 10px 5px
+	}
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+	.header-area .main-header .main-menu {
+		margin-right: 30px
+	}
+}
+
+.header-area .main-header .main-menu ul li {
+	display: inline-block;
+	position: relative;
+	z-index: 1
+}
+
+.header-area .main-header .main-menu ul li a {
+	font-family: "Josefin Sans", sans-serif;
+	color: #091a23;
+	font-weight: 400;
+	padding: 39px 24px;
+	display: block;
+	font-size: 16px;
+	-webkit-transition: all .3s ease-out 0s;
+	-moz-transition: all .3s ease-out 0s;
+	-ms-transition: all .3s ease-out 0s;
+	-o-transition: all .3s ease-out 0s;
+	transition: all .3s ease-out 0s;
+	text-transform: capitalize;
+	position: relative
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.header-area .main-header .main-menu ul li a {
+		padding: 39px 15px;
+		margin: 0 5px
+	}
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+	.header-area .main-header .main-menu ul li a {
+		margin: 0 10px
+	}
+}
+
+.header-area .main-header .main-menu ul li:hover>a {
+	color: #ff5600
+}
+
+.header-area .main-header .main-menu ul ul.submenu {
+	position: absolute;
+	width: 170px;
+	background: #fff;
+	left: 0;
+	top: 80%;
+	visibility: hidden;
+	opacity: 0;
+	box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
+	padding: 17px 0;
+	-webkit-transition: all .3s ease-out 0s;
+	-moz-transition: all .3s ease-out 0s;
+	-ms-transition: all .3s ease-out 0s;
+	-o-transition: all .3s ease-out 0s;
+	transition: all .3s ease-out 0s
+}
+
+.header-area .main-header .main-menu ul ul.submenu>li {
+	margin-left: 7px;
+	display: block
+}
+
+.header-area .main-header .main-menu ul ul.submenu>li>a {
+	padding: 6px 10px !important;
+	font-size: 16px;
+	text-transform: capitalize;
+	margin: 0
+}
+
+.header-area .main-header .main-menu ul ul.submenu>li>a:hover {
+	color: #ff5600;
+	background: none
+}
+
+.header-area .main-menu ul ul.submenu>li>a:hover {
+	padding-left: 13px !important
+}
+
+.header-area .main-menu ul>li:hover>ul.submenu {
+	visibility: visible;
+	opacity: 1;
+	top: 100%
+}
+
+.header-transparent {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 9
+}
+
+.header-sticky.sticky-bar.sticky .main-menu ul li a {
+	padding: 20px 20px !important
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.header-sticky.sticky-bar.sticky {
+		padding: 15px 0px
+	}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	.header-sticky.sticky-bar.sticky {
+		padding: 15px 0px
+	}
+}
+
+@media (max-width: 575px) {
+	.header-sticky.sticky-bar.sticky {
+		padding: 15px 0px
+	}
+}
+
+.mobile_menu {
+	position: absolute;
+	right: 0px;
+	width: 100%;
+	z-index: 99
+}
+
+.mobile_menu .slicknav_menu {
+	background: transparent;
+	margin-top: 0px !important
+}
+
+.mobile_menu .slicknav_menu .slicknav_btn {
+	top: -44px
+}
+
+.mobile_menu .slicknav_menu .slicknav_btn .slicknav_icon-bar {
+	background-color: #ff5600 !important
+}
+
+.mobile_menu .slicknav_menu .slicknav_nav {
+	margin-top: 4px !important
+}
+
+.mobile_menu .slicknav_menu .slicknav_nav a:hover {
+	background: transparent;
+	color: #ff5600
+}
+
+.mobile_menu .slicknav_menu .slicknav_nav a {
+	font-size: 15px;
+	padding: 7px 10px
+}
+
+.mobile_menu .slicknav_menu .slicknav_nav .slicknav_item a {
+	padding: 0 !important
+}
